@@ -1,12 +1,12 @@
 # Transpiler Typescript
 
-> Transpiler Typescript using Webpack 5
+> Transpiling Typescript using Webpack 5
 
 As a SPA Developer, I want to use TypeScript, so that I can take advantage of strongly typed Javascript
 
 ## Before and After
 
-Before and after for Transpiler Typescript using Webpack 5
+Before and after for Transpiling Typescript using Webpack 5
 
 <table>
 <tr>
@@ -53,17 +53,11 @@ npx tsc src/index.ts --outfile dist/index.js
 # Run the transpiler via webpack (best option for development)
 npm run build
 
-# Play around with the queries inside browserlists to see different transpile outputs
-edit .browserslistrc
-
 # Run the transpiler
 
 # Run via package
 npm run execute
 # or via command line call
-node dist/index.js
-
-# Run the code
 node dist/index.js
 ```
 
